@@ -1,8 +1,25 @@
 aid: vexata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vexata.png
 name: Vexata
-description: Vexata is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Vexata was an all-flash, NVMe-based enterprise storage startup headquartered in Santa Clara,
+  California, known for its Vexata Active Data Fabric software and VX-100 scale-out storage arrays aimed
+  at high-performance database and analytics workloads. The company was backed by Lightspeed Venture Partners
+  and was acquired by StorCentric in 2019; StorCentric subsequently filed for bankruptcy in 2022. As of
+  this enrichment pass the vexata.com domain no longer belongs to the company and redirects to an unrelated
+  business (farmhousela.com), the api./developer./docs. subdomains do not resolve, and no developer portal,
+  documentation, SDK, or API surface could be found. This profile is retained as a historical/defunct
+  company record.
 url: https://raw.githubusercontent.com/api-evangelist/vexata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Storage
+- Data Storage
+- Enterprise Storage
+- NVMe
+- Hardware
+- Infrastructure
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-status: defunct
+x-status-note: Acquired by StorCentric in 2019; StorCentric bankrupt 2022. vexata.com now redirects to
+  an unrelated business and no live API surface exists (probed 2026-07-21).
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
